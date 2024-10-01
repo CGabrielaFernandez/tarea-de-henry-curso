@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: coral;
+    color:aqua
+    margin: 20px;
+  } 
+
+  .title{
+    font-size: 1.8em;
+    color: chocolate;
+
+  }
+
+ .logo{
+  width: 250px;
+ }
+ .cards{
+  border: 2px solid black;
+  width: fit-content;
+  padding: 2em 1em 2em 1em;
+  border-radius: 10%;
+  transition: 2s;
+ }
+
+ .cards:hover{ 
+  background-color: rgb(247, 102, 5);
+
+ }
+
+ #principal{
+  font-size: 2.5em;
+ }
+ #titulos{
+  border: 2px solid black;
+  width: 65vw;
+  margin: auto;
+margin-bottom: 1.5em;
+  padding: 3em;
+ }
+
+ #cards-container{
+  background-color: blueviolet;
+  width: 85vw;
+  margin: auto;
+  margin-top: 1.5em;
+  border:2px solid rgb(82, 77, 77);
+  border-radius: 2%;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+
+ }
